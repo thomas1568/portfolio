@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Thomas</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="profile">
+        <img src="pp.jpg" alt="Photo de profil de Thomas Ginefri" />
+        <h1>Thomas Ginefri</h1>
+      </div>
+      <ul>
+        <li><a href="#moi">Moi</a></li>
+        <li><a href="#projets">Mes projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="moi" class="page-content">
+      <header>
+        <h2>Présentation de Thomas Ginefri</h2>
+        <h1>Thomas Ginefri</h1>
+        <p>
+          Actuellement en première année de MMI (Métiers du Multimédia et de l'Internet), je suis titulaire d'un BAC STI2D avec une spécialité en SIN (Système d'Information Numérique). Ce parcours m'a offert une solide base dans le domaine de la technologie et de l'informatique. Les MMI représentent pour moi une opportunité passionnante, car cette filière combine diverses compétences liées aux médias, à l'informatique et à la communication. Si vous avez des questions spécifiques sur mon programme d'études, des conseils à partager ou des domaines que vous me recommanderiez d'explorer davantage, je suis ouvert à toute discussion et à l'apprentissage continu.
+        </p>
+        <button>Info</button>
+      </header>
+    </section>
+
+    <section id="projets" class="projects-section">
+      <h2>Mes projets réalisés</h2>
+      <div class="projects">
+        <div class="project">
+          <h4>Montage vidéo</h4>
+          <p class="description">
+            Utilisation du logiciel de montage DaVinci Resolve pour un montage simpliste d'un interview d'un athlète ayant réalisé la célèbre course de GR20.
+          </p>
+          <p class="dates">Projet individuel</p>
+        </div>
+
+        <div class="project">
+          <h4>Photo-montage</h4>
+          <p class="description">
+            Utilisation du logiciel Photoshop 2024 pour la réalisation et la création de divers projets tels que l'insertion de motifs sur un visage, le détourage ou encore la réalisation de modifications sur des affiches de film.
+          </p>
+          <p class="dates">Projet individuel</p>
+        </div>
+
+        <div class="project">
+          <h4>Photographie packshot</h4>
+          <p class="description">
+            Photo pour la création d'une publicité sur un produit comme une bouteille de jus de fruit.
+          </p>
+          <p class="dates">Projet de groupe</p>
+        </div>
+
+        <div class="project">
+          <h4>Enregistrement vidéo</h4>
+          <p class="description">
+            Création de vidéos de lutte pour sensibiliser contre la pollution dans la ville de Corte.
+          </p>
+          <p class="dates">Projet de groupe</p>
+        </div>
+
+        <div class="project">
+          <h4>Création d'affiche</h4>
+          <p class="description">
+            Utilisation du logiciel Adobe Illustrator pour la création d'affiches sur un festival de lecture (Altaleghje).
+          </p>
+          <p class="dates">Projet individuel</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="skills-area">
+      <h2>Mes compétences</h2>
+      <div class="skill">
+        <div class="skill-title">CSS</div>
+        <div class="skill-bar"></div>
+        <div class="css skill-fill">
+          <span class="skill-percent">50%</span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title">HTML</div>
+        <div class="skill-bar"></div>
+        <div class="html skill-fill">
+          <span class="skill-percent">70%</span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title">DaVinci Resolve</div>
+        <div class="skill-bar"></div>
+        <div class="js skill-fill">
+          <span class="skill-percent">97%</span>
+        </div>
+      </div>
+    </div>
+
+    <section id="contact">
+      <h2>Contactez-moi</h2>
+      <form action="index.html" method="POST" class="center-form">
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" placeholder="Prénom" name="prenom" required />
+        
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" placeholder="Nom" name="nom" required />
+        
+        <label for="email">Adresse mail</label>
+        <input type="email" id="email" placeholder="Adresse mail" name="email" required />
+        
+        <label for="telephone">Numéro de téléphone</label>
+        <input type="tel" id="telephone" placeholder="Numéro de téléphone" name="telephone" required />
+        
+        <input type="submit" value="Valider" class="valider-btn" />
+      </form>
+    </section>
+
+    <footer>
+      <div class="colonne">
+        <h3>Mes services</h3>
+        <p>Montage DaVinci</p>
+        <p>Photoshop</p>
+        <p>Illustrator</p>
+      </div>
+
+      <div class="colonne">
+        <h3>Scolaire</h3>
+        <p>Étudiant</p>
+        <p>MMI</p>
+        <p>Corsica</p>
+      </div>
+
+      <div class="colonne">
+        <h3>Mes adresses</h3>
+        <p>thomas.ginefri@gmail.com</p>
+        <p>www.universita.corsica</p>
+        <p>international1@univ-corse.fr</p>
+      </div>
+    </footer>
+  </body>
+</html>
